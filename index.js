@@ -143,6 +143,8 @@ console.log(
 
 console.log("FIREBASE_SERVICE_ACCOUNT_JSON_PRESENT:", Boolean(process.env.FIREBASE_SERVICE_ACCOUNT_JSON));
 
+console.log("FIREBASE_SERVICE_ACCOUNT_JSON_PRESENT:", Boolean(process.env.FIREBASE_SERVICE_ACCOUNT_JSON));
+
 function loadFirebaseCredential() {
 
   // ----------------------------------------------------------
