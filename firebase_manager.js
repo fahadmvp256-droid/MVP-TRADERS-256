@@ -1,5 +1,5 @@
 // ============================================================
-// SAINT CRYPTO TRADE ENGINE
+// MVP TRADERS 256 TRADE ENGINE
 // firebase_manager.js
 //
 // FIREBASE + SIGNAL MANAGER
@@ -261,7 +261,7 @@ function initializeFirebase() {
       const serviceAccountPath =
         path.join(
           __dirname,
-          "serviceAccountKey.json"
+          "mvp-traders256-serviceAccountKey.json"
         );
 
       if (
@@ -283,7 +283,7 @@ function initializeFirebase() {
           );
 
         console.log(
-          "✅ Firebase manager using serviceAccountKey.json."
+          "✅ Firebase manager using mvp-traders256-serviceAccountKey.json."
         );
       }
     }
@@ -695,7 +695,7 @@ async function sendTelegramAlert(
 
 async function sendBackendOnlineAlert() {
   const message =
-    "🟢 *SAINT CRYPTO BACKEND IS ONLINE* ✝️⚡";
+    "🟢 *MVP TRADERS 256 BACKEND IS ONLINE* ✝️⚡";
 
   const sent =
     await sendTelegramAlert(
@@ -796,7 +796,7 @@ function buildTelegramMessage(
 
     `⏰ *Expires in:* ${SIGNAL_EXPIRY_MINUTES} minutes\n\n` +
 
-    `⚡ *Redeem this code in the Saint Crypto app.*`
+    `⚡ *Redeem this code in the MVP TRADERS 256 app.*`
   );
 }
 
@@ -942,7 +942,7 @@ async function createAndReleaseSignal(
   );
 
   console.log(
-    "🎟️ SAINT CRYPTO SIGNAL RELEASE"
+    "🎟️ MVP TRADERS 256 SIGNAL RELEASE"
   );
 
   console.log(
@@ -1529,7 +1529,7 @@ function startSignalScheduler() {
   );
 
   console.log(
-    "⏰ SAINT CRYPTO SIGNAL SCHEDULER"
+    "⏰ MVP TRADERS 256 SIGNAL SCHEDULER"
   );
 
   console.log(

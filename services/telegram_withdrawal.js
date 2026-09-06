@@ -1,7 +1,7 @@
 "use strict";
 
 // ============================================================
-// SAINT CRYPTO — TELEGRAM WITHDRAWAL APPROVAL
+// MVP TRADERS 256— TELEGRAM WITHDRAWAL APPROVAL
 //
 // Uses the EXISTING TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID.
 // No new bot is required.

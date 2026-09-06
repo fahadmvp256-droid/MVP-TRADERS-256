@@ -113,7 +113,7 @@ const API_PREFIX =
 
 const FIREBASE_DATABASE_URL =
   process.env.FIREBASE_DATABASE_URL ||
-  "https://kendrick-alph-mobile-default-rtdb.firebaseio.com/";
+  "https://mvp-traders256-default-rtdb.firebaseio.com/";
 
 const SERVICE_ACCOUNT_PATH =
   process.env.FIREBASE_SERVICE_ACCOUNT_PATH ||

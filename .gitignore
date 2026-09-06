@@ -4,3 +4,4 @@ node_modules/
 serviceAccountKey.json
 serviceAccountKey_old.json
 saint_crypto_state.json
+mvp-traders256-serviceAccountKey.json

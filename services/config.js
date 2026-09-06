@@ -280,8 +280,8 @@ const TELEGRAM_ENABLED = Boolean(
 // ============================================================
 
 const FIREBASE_DATABASE_URL =
-  env("FIREBASE_DATABASE_URL") ||
-  "https://kendrick-alph-mobile-default-rtdb.firebaseio.com/";
+  process.env.FIREBASE_DATABASE_URL ||
+  "https://mvp-traders256-default-rtdb.firebaseio.com/";
 
 const FIREBASE_SERVICE_ACCOUNT_PATH =
   env("FIREBASE_SERVICE_ACCOUNT_PATH") ||
