@@ -136,6 +136,11 @@ let firebaseReady = false;
 // 6. FIREBASE CREDENTIAL LOADER
 // ============================================================
 
+console.log(
+  "🔐 FIREBASE_SERVICE_ACCOUNT_JSON present:",
+  Boolean(process.env.FIREBASE_SERVICE_ACCOUNT_JSON)
+);
+
 function loadFirebaseCredential() {
 
   // ----------------------------------------------------------
